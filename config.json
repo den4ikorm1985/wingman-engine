@@ -1,0 +1,15 @@
+{
+  "inbounds": [{
+    "port": 10000,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{"id": "7f8e9a2b-1c4d-4e5f-b6a7-c8d9e0f1a2b3"}],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {"path": "/vpath"}
+    }
+  }],
+  "outbounds": [{"protocol": "freedom"}]
+}
